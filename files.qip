@@ -1,0 +1,8 @@
+set_global_assignment -name QIP_FILE rtl/jtframe.qip
+set_global_assignment -name QIP_FILE rtl/game.qip
+set_global_assignment -name QIP_FILE rtl/ghox/ghox.qip
+set_global_assignment -name SYSTEMVERILOG_FILE Arcade-Ghox.sv
+set_global_assignment -name SDC_FILE Arcade-Ghox.sdc
+
+set_global_assignment -name SEARCH_PATH rtl/modules/jtframe/bin
+set_global_assignment -name SEARCH_PATH rtl/modules/fx68k/hdl
